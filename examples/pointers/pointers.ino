@@ -6,7 +6,7 @@
  *  AVR8 (Uno/Nano)
  *  STM32 (F103.  Blue pill/Maple mini)
  *
- * Dave.C, 2019
+ * DG, 2019
  */
 
 // PStruct use pointers for ADTs and give access to internal data.  In some situations it can reduce code footprint

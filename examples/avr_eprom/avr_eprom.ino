@@ -5,7 +5,7 @@
  * Architecture support:
  *  AVR8 (Uno/Nano)
  *
- * Dave.C, 2019
+ * DG, 2019
  */
 
 #if !defined(ARDUINO_ARCH_AVR)

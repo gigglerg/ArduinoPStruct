@@ -8,7 +8,7 @@
  *  AVR8 (Uno/Nano)
  *  STM32 (F103.  Blue pill/Maple mini)
  *
- * Dave.C, 2019
+ * DG, 2019
  */
 
 // include media storage access base class and user api

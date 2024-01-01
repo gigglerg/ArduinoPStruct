@@ -14,7 +14,7 @@ endef
 # get git tag, if no tag then get last commit, failing that leave it empty
 GIT_STR=$(shell git tag -l --points-at HEAD 2>/dev/null)
 ifeq ($(GIT_STR),)
-	GIT_STR=$(shell git log --pretty=format:'%h' -n 1 2>/dev/null)
+	GIT_STR="$(shell git branch --show-current 2>/dev/null) - $(shell git log --pretty=format:'%h' -n 1 2>/dev/null)"
 endif
 
 ifeq ($(GIT_STR),)

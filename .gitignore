@@ -56,5 +56,7 @@ dkms.conf
 *.esproj
 *.bak
 *.log
-/docs/html
+/docs/avr8_html
+/docs/stm32_html
 /docs/examples.txt
+

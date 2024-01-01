@@ -38,7 +38,7 @@ PROJECT_NAME           = ArduinoPStruct
 # could be handy for archiving the generated documentation or if some version
 # control system is used.
 
-PROJECT_NUMBER         = 
+PROJECT_NUMBER         = "4829737 (git)"
 
 # Using the PROJECT_BRIEF tag one can provide an optional one line description
 # for a project that appears at the top of each page and should give viewer a
@@ -1066,7 +1066,7 @@ GENERATE_HTML          = YES
 # The default directory is: html.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_OUTPUT            = avr8_html
+HTML_OUTPUT            = stm32_html
 
 # The HTML_FILE_EXTENSION tag can be used to specify the file extension for each
 # generated HTML page (for example: .htm, .php, .asp).
@@ -2045,7 +2045,7 @@ INCLUDE_FILE_PATTERNS  =
 
 #REDEFINED             = ARDUINO_ARCH_AVR
 #REDEFINED             = ARDUINO_ARCH_STM32 HAL_CRC_MODULE_ENABLED HAL_FLASH_MODULE_ENABLED
-PREDEFINED             = ARDUINO_ARCH_AVR
+PREDEFINED             = ARDUINO_ARCH_STM32 HAL_CRC_MODULE_ENABLED HAL_FLASH_MODULE_ENABLED
 
 # If the MACRO_EXPANSION and EXPAND_ONLY_PREDEF tags are set to YES then this
 # tag can be used to specify a list of macro names that should be expanded. The
@@ -2116,7 +2116,8 @@ EXTERNAL_PAGES         = YES
 # interpreter (i.e. the result of 'which perl').
 # The default file (with absolute path) is: /usr/bin/perl.
 
-PERL_PATH              = /usr/bin/perl
+#warning: Tag 'PERL_PATH' at line 2119 of file 'doxyfile' has become obsolete.
+#PERL_PATH              = /usr/bin/perl
 
 #---------------------------------------------------------------------------
 # Configuration options related to the dot tool
@@ -2138,7 +2139,8 @@ CLASS_DIAGRAMS         = NO
 # the mscgen tool resides. If left empty the tool is assumed to be found in the
 # default search path.
 
-MSCGEN_PATH            =
+#warning: Tag 'MSCGEN_PATH' at line 2141 of file 'doxyfile' has become obsolete.
+#MSCGEN_PATH            =
 
 # You can include diagrams made with dia in doxygen documentation. Doxygen will
 # then run dia to produce the diagram and insert it in the documentation. The

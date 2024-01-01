@@ -1,0 +1,96 @@
+/* Remove all those overriden font families */
+body, table, div, p, dl,
+#projectname,
+#projectbrief,
+#nav-tree .label {
+    font: 12px/18px Georgia,serif
+}
+
+/* Remove gradient backgrounds and background colors */
+div.header,
+#nav-tree,
+.navpath ul,
+.memproto, dl.reflist dt {
+    background: none;
+}
+#nav-tree .selected {
+    background: none;
+    background-color: #728dc1;
+    text-shadow: none;
+}
+
+.memtitle {
+    background-image: none
+}
+
+
+/* Visited links should look the same */
+a, a:link, a:visited {
+    color: #2A5685;
+    text-decoration: underline;
+}
+
+/* Hover ancor red */
+a:active, a:hover {
+    color: #CC0000;
+}
+
+.directory tr.even,
+pre.fragment,
+.mdescLeft, .mdescRight, .memItemLeft, .memItemRight, .memTemplItemLeft, .memTemplItemRight, .memTemplParams,
+.memproto, dl.reflist dt {
+    background-color: #EEE;
+    box-shadow: none;
+    border-radius: 0;
+}
+.memdoc, dl.reflist dd {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+pre.fragment {
+    background-color: #FAFAFA;
+    border: 1px solid #DADADA;
+    margin: 1em 1em 1em 1.6em;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: auto;
+}
+
+#projectname {
+    color: #004400;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#titlearea {
+    background-color: #EEE;
+}
+
+#titlearea table {
+    padding: 20px;
+}
+
+dl.reflist dt, div.memproto {
+    border: 1px solid #A8B8D9;
+}
+
+dl.reflist dd, div.memdoc {
+    border-width: 0;
+}
+
+div.contents {
+    margin-left: 20px; margin-right: 16px;
+    width: 700 px;
+}
+
+.paramname {
+    color: #801010;
+}
+
+
+th.markdownTableHeadLeft, th.markdownTableHeadRight, th.markdownTableHeadCenter, th.markdownTableHeadNone {
+    background-color: #EEE;
+    color: black;
+    font-weight: bold;
+}

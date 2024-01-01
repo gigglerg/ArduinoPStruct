@@ -1,0 +1,63 @@
+#######################################
+# Syntax Coloring Map For PStruct
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+persist								KEYWORD1
+wrap								KEYWORD1
+Media								KEYWORD1
+Flash								KEYWORD1
+Crc		    						KEYWORD1
+Struct								KEYWORD1
+Flash								KEYWORD1
+Ee									KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+GetPageSize							KEYWORD2
+GetSize								KEYWORD2
+GetStart							KEYWORD2
+GetEnd								KEYWORD2
+Program								KEYWORD2
+Read								KEYWORD2
+Verify								KEYWORD2
+Write32Buffer						KEYWORD2
+Write32								KEYWORD2
+Lock								KEYWORD2
+Unlock								KEYWORD2
+ErasePages							KEYWORD2
+ErasePage							KEYWORD2
+CheckErasePage						KEYWORD2
+Struct								KEYWORD2
+GetStorageUnitSize					KEYWORD2
+GetStorageUnitPages					KEYWORD2
+Unload								KEYWORD2
+Load								KEYWORD2
+Save								KEYWORD2
+Get									KEYWORD2
+IsLoaded							KEYWORD2
+GetPages							KEYWORD2
+GetLocation							KEYWORD2
+GetCounter							KEYWORD2
+Generate							KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+STM32F103X_FLASH_SHADOW_START		LITERAL1
+STM32F103X_FLASH_SIZE				LITERAL1
+STM32F103X_FLASH_PAGE_SIZE			LITERAL1
+STM32F103X_FLASH_PAGE_SIZE_U32		LITERAL1
+STM32F103X_FLASH_NOR_ERASE_STATE	LITERAL1
+AVR_FLASH_START						LITERAL1
+FLASHEND							LITERAL1
+SPM_PAGESIZE						LITERAL1
+AVR_FLASH_SIZE						LITERAL1
+AVR_FLASH_PAGE_SIZE					LITERAL1
+AVR_FLASH_NOR_ERASE_STATE			LITERAL1

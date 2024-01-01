@@ -1,0 +1,16 @@
+{
+  "name": "PStruct",
+  "description": "C++ persistent storage structure library",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/gigglerg/pstruct_library.git"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr",
+    "stm32",
+    "linux_arm"
+  ]
+}

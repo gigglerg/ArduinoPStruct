@@ -22,8 +22,8 @@ library code is completely independent (excludes chip specific drivers).
 
 For now as this is a library, Doxygen documentation is available by the following links
 
-* [AVR8 documentation](../avr8_html/index.htm)
-* [STM32 documentation](../stm32_html/index.htm)
+* [AVR8 documentation](docs/avr8_html/index.htm)
+* [STM32 documentation](docs/stm32_html/index.htm)
 
 To rebuild simple use make with architecture like "make avr8" or "make stm32" from within 
 the "./docs" folder.

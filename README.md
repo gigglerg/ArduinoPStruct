@@ -22,8 +22,8 @@ library code is completely independent (excludes chip specific drivers).
 
 For now as this is a library, Doxygen documentation is available by the following links
 
-* [AVR8 documentation](docs/avr8_html/index.htm)
-* [STM32 documentation](docs/stm32_html/index.htm)
+* [AVR8 documentation](https://gigglerg.github.io/ArduinoPStruct/release_100/avr8_html/index.htm)
+* [STM32 documentation](https://gigglerg.github.io/ArduinoPStruct/release_100/stm32_html/index.htm)
 
 To rebuild simple use make with architecture like "make avr8" or "make stm32" from within 
 the "./docs" folder.
@@ -47,7 +47,7 @@ the "./docs" folder.
 PStruct is available for installation in the [Arduino Library Manager].
 Alternatively it can be downloaded from GitHub using the following:
 
-1. Download the ZIP file from https://github.com/gigglerg/PStruct/archive/master.zip
+1. Download the ZIP file from https://github.com/gigglerg/ArduinoPStruct.git
 2. Rename the downloaded file to `PStruct.zip`
 3. From the Arduino IDE: Sketch -> Include Library... -> Add .ZIP Library...
 4. Restart the Arduino IDE to see "PStruct" library with examples
